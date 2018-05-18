@@ -40,7 +40,7 @@ public class ExcelUtility {
 		return cellStringData;
 		
 	}
-	
+	//This method is to get the excel table which is to be executed i.e. the total rows and column.
 	public static String[][] getExcelTable(){
 		int rowcount=sheet.getLastRowNum();
 		int col=2;
